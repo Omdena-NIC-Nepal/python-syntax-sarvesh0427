@@ -4,6 +4,7 @@ from assignment import *
 def test_format_string():
     assert format_string("John", 25) == "My name is John and I am 25 years old"
     assert format_string("Alice", 30) == "My name is Alice and I am 30 years old"
+    assert  format_string("Sarvesh", 22) == "My name is Sarvesh and I am 22 years old"
 
 def test_conditional_check():
     assert conditional_check(15) == "Greater"
